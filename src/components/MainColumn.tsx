@@ -1,5 +1,6 @@
 'use client'
 
+import Card from '@/components/Card';
 import SectionHeader from '@/components/SectionHeader';
 import {appData} from '@/data/data';
 import {FeatureObject, FeatureStatuses} from '@/types/Feature';
@@ -25,12 +26,8 @@ const MainColumn = () => {
           <div className="mt-3">
             <ul className="space-y-3">
               {data.map((item) => (
-                <li key={item.id} className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
-                  <div className="flex justify-between w-full">
-                    <h2 className="font-semibold">{item.feature}</h2>
-                    <span className="justify-end">{FeatureStatuses[item.status].toString()}</span>
-                  </div>
-                  <p>{item.description}</p>
+                <li key={item.id}>
+                  <Card feature={item.feature} description={item.description} />
                 </li>
               ))}
             </ul>
