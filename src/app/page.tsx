@@ -1,13 +1,14 @@
-import MainColumn from '@/components/MainColumn';
-import Sidebar from '@/components/Sidebar';
-import SideColumn from '@/components/SideColumn';
+import MainColumn from "@/components/MainColumn";
+import Sidebar from "@/components/Sidebar";
+import Hero from "@/data/Hero";
 
 export default function Home() {
   return (
     <div>
       <Sidebar />
-      <MainColumn />
-      <SideColumn />
+      <MainColumn>
+        <Hero />
+      </MainColumn>
     </div>
   );
 }
