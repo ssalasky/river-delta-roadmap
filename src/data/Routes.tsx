@@ -36,7 +36,7 @@ export const Navigation = [
 export const GeneralNavigation = [
   {
     name: "General Roadmap",
-    href: "#",
+    href: "/general",
     icon: CalendarDaysIcon,
     current: false,
   },

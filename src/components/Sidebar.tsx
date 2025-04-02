@@ -21,7 +21,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="mt-16 hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+      <div className="hidden lg:fixed mt-16 lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
         <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r px-6">
           <nav className="mt-6 flex flex-1 flex-col">
             <ul role="list" className="flex flex-1 flex-col gap-y-7">

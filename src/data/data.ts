@@ -1,5 +1,6 @@
 import {CompanyData} from '@/data/CompanyData';
 import {FeedData} from '@/data/FeedData';
+import {GeneralData} from '@/data/GeneralData';
 import {JobsData} from '@/data/JobsData';
 import {MessagingData} from '@/data/MessagingData';
 import {ProfileData} from '@/data/ProfileData';
@@ -11,5 +12,6 @@ export const appData = {
   company: CompanyData,
   jobs: JobsData,
   messaging: MessagingData,
-  feed: FeedData
+  feed: FeedData,
+  general: GeneralData,
 }

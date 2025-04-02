@@ -11,7 +11,7 @@ const DeployList = ({ data }: DeployListProps) => {
       <ul className="space-y-3">
         {data.map((item) => (
           <li key={item.id}>
-            <Card feature={item.feature} description={item.description} />
+            <Card feature={item.feature} description={item.description} status={item.status} />
           </li>
         ))}
       </ul>
