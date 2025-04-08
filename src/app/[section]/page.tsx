@@ -41,3 +41,21 @@ const SectionPage = async ({
 };
 
 export default SectionPage;
+
+export async function generateStaticParams() {
+  // Define all possible values for "section"
+  const sections = [
+    "onboarding",
+    "profile",
+    "company",
+    "jobs",
+    "messaging",
+    "feed",
+    "general",
+  ];
+
+  // Return an array of objects where each object has the param name as key
+  return sections.map((section) => ({
+    section, // Shorthand for { section: section }
+  }));
+}
