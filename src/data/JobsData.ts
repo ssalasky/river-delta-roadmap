@@ -5,13 +5,13 @@ export const JobsData: FeatureObject[] = [
     id: 1,
     feature: 'Job post creation',
     description: 'Companies can create job postings and have them appear on the Jobs page.',
-    status: FeatureStatuses.Planned,
+    status: FeatureStatuses.Building,
   },
   {
     id: 2,
     feature: 'Job applications',
     description: 'Users can use the \'apply\' button to submit their profile to a job posting. This should result with their application being shown on company view.',
-    status: FeatureStatuses.Testing,
+    status: FeatureStatuses.Building,
   },
   {
     id: 3,
@@ -23,6 +23,6 @@ export const JobsData: FeatureObject[] = [
     id: 4,
     feature: 'Job search filtering',
     description: 'As a user I should be able to use search terms and various filters to find jobs that interest me quickly and easily.',
-    status: FeatureStatuses.Testing,
+    status: FeatureStatuses.Planned,
   }
 ]

@@ -15,7 +15,7 @@ export const MessagingData: FeatureObject[] = [
   },
   {
     id: 3,
-    feature: 'Conversation notfications',
+    feature: 'Conversation notifications',
     description: 'A user should get notifications within the application if a new message has arrived for a chat they are not currently viewing.',
     status: FeatureStatuses.Planned,
   }
