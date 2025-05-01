@@ -9,8 +9,8 @@ const General = () => {
           Recently, they announced a transition to Redwood SDK. This is supposed
           to be a vite plugin that is tightly integrated with Cloudflare. The
           main difference between JS and SDK is that JS was a more full-fledged,
-          opinionated framework. The new SDK is aimed towards reducing "bloat"
-          and streamlining the developer experience.
+          opinionated framework. The new SDK is aimed towards reducing
+          &#34;bloat&#34; and streamlining the developer experience.
         </p>
         <p>
           The critical issue for anyone that was using RedwoodJS is that there
@@ -27,8 +27,9 @@ const General = () => {
           their routing scheme, I tried their deployment process. I honestly
           gave it a fair shot because I believe in the Redwood ethos. However,
           since it is still in beta I ran into too many hurdles. There were too
-          many things not documented yet. I've never deployed or integrated with
-          Cloudflare before. It was just too much at this point in my project.
+          many things not documented yet. I&#39;ve never deployed or integrated
+          with Cloudflare before. It was just too much at this point in my
+          project.
         </p>
         <p>
           My struggles grew greater and my desire to keep going waned. It was at
@@ -45,8 +46,8 @@ const General = () => {
           a bit more and realized it isn&#39;t perfect but it did provide quite
           a bit of turnkey to reduce my learning curve. That is when I made the
           decision to pivot and rebuild the POC entirely. It is quite daunting
-          to make such a drastic pivot as the stage I'm at but I knew ultimately
-          it needed to be done.
+          to make such a drastic pivot as the stage I&#39;m at but I knew
+          ultimately it needed to be done.
         </p>
         <p>
           So, for those following along, I ask for some more patience. I will
