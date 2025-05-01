@@ -41,8 +41,8 @@ export const GeneralNavigation = [
     current: false,
   },
   {
-    name: "General Deployments",
-    href: "#",
+    name: "General Updates",
+    href: "/general",
     icon: BriefcaseIcon,
     current: false,
   },
