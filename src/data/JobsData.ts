@@ -1,4 +1,4 @@
-import { FeatureObject, FeatureStatuses } from "@/types/Feature";
+import {FeatureObject, FeatureStatuses} from '@/types/Feature';
 
 export const JobsData: FeatureObject[] = [
   {
